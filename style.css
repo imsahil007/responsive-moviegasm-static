@@ -1,8 +1,32 @@
+@font-face{
+    font-family: sega;
+    src:url(assets/SEGA.TTF);
+}
 a.navbar-brand {
     font-size: 1.5rem;
     margin-right: 20px;
+    font-family: sega;
     text-transform: uppercase;
 }
 a.nav-link{
     font-size: 1rem;
 }
+body{
+    background-color: gray;
+}
+.jumbotron{
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    border-style: 2px solid black;
+    width: 75%;
+    box-shadow: 3px 3px 6px rgba(0 ,0 ,0 ,0.5);
+}
+.modal-body{
+    margin: auto;
+}
+/*
+.container-fluid.light-theme{
+   
+    width: auto%;
+}*/
