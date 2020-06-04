@@ -8,20 +8,107 @@ a.navbar-brand {
     font-family: sega;
     text-transform: uppercase;
 }
+.navbar{
+    margin-bottom: 20px;
+}
 a.nav-link{
     font-size: 1rem;
 }
-body{
-    background-color: gray;
+.container-fluid{
+    padding: 0;
+/*    display: block;*/
+}
+
+.darkTheme{
+    background-color:   darkgray;
+    background-image: linear-gradient(gray, black); 
+    background-image: -moz-linear-gradient(gray, black); 
+    background-image: -webkit-linear-gradient(gray, black); 
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
 }
 .jumbotron{
     text-align: center;
     margin: auto;
-    margin-top: 1rem;
     border-style: 2px solid black;
     width: 75%;
     box-shadow: 3px 3px 6px rgba(0 ,0 ,0 ,0.5);
 }
+.carousel{
+    width: 40%;
+/*    margin: auto;*/
+    margin: 20px auto;
+}
+.carousel-item h5{
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.card{
+    margin: 60px;
+    margin-top: 20px;
+    height: 350px;
+    box-shadow: 3px 3px 6px rgba(0,0,0, 0.5);
+}
+.card img{
+    height: 300px;
+    object-fit: cover;
+    padding: 20px;
+}
+.card-body{
+   margin: auto;
+}
+p.card-text{
+/*    align-content: center;*/
+    text-align: center;
+}
+.botom-banner{
+    height: auto;
+    padding: 20px;
+    color: white;
+    margin: auto;
+    object-fit: scale-down;
+}
+.page-footer{
+    background-color: #1c2331;
+    width: 100%;
+}
+.footer-copyright{
+    font-family: sans-serif;
+    color: white;
+}
+.footer-copyright.a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+.icon-list{
+    margin: auto;
+    text-align: center;
+}
+.icons{
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.fa-github-square{
+    color: white;
+}
+.fa-facebook-square{
+    color:blue;
+}
+.fa-google-plus-square{
+    color: maroon;
+}
+.fa-linkedin{
+    color:darkcyan;
+}
+/*
+.carousel-item{
+   width: 50%;
+}
+*/
 .modal-body{
     margin: auto;
 }
@@ -35,5 +122,13 @@ body{
     .jumbotron{
         width: 100%;
     }
-    
+    .carousel{
+    width: 100%;
+    margin: 20px auto;
+}
+    icons{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+  
 }
