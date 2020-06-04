@@ -1,134 +1,177 @@
-@font-face{
+@font-face {
     font-family: sega;
-    src:url(assets/SEGA.TTF);
+    src: url(assets/SEGA.TTF);
 }
+
 a.navbar-brand {
     font-size: 1.5rem;
     margin-right: 20px;
     font-family: sega;
     text-transform: uppercase;
 }
-.navbar{
-    margin-bottom: 20px;
+.video-modal{
+    height: 350px;
 }
-a.nav-link{
-    font-size: 1rem;
-}
-.container-fluid{
-    padding: 0;
-/*    display: block;*/
+iframe{
+    margin: 0;
+    width: 450px;
+    height: 300px;
+ 
 }
 
-.darkTheme{
-    background-color:   darkgray;
-    background-image: linear-gradient(gray, black); 
-    background-image: -moz-linear-gradient(gray, black); 
-    background-image: -webkit-linear-gradient(gray, black); 
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+a.nav-link {
+    font-size: 1rem;
+}
+
+.container-fluid {
+    padding: 0;
+    /*    display: block;*/
+}
+
+.darkTheme {
+    background-color: darkgray;
+    background-image: linear-gradient(gray, black);
+    background-image: -moz-linear-gradient(gray, black);
+    background-image: -webkit-linear-gradient(gray, black);
     width: 100%;
     margin: 0;
     padding: 1rem;
 }
-.jumbotron{
+
+.jumbotron {
     text-align: center;
     margin: auto;
     border-style: 2px solid black;
     width: 75%;
-    box-shadow: 3px 3px 6px rgba(0 ,0 ,0 ,0.5);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
-.carousel{
+
+.carousel {
     width: 40%;
-/*    margin: auto;*/
+    /*    margin: auto;*/
     margin: 20px auto;
 }
-.carousel-item h5{
-    color:white;
+
+.carousel-item h5 {
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
 }
-.card{
+
+.card {
     margin: 60px;
     margin-top: 20px;
     height: 350px;
-    box-shadow: 3px 3px 6px rgba(0,0,0, 0.5);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
-.card img{
+
+.card img {
     height: 300px;
     object-fit: cover;
     padding: 20px;
 }
-.card-body{
-   margin: auto;
+
+.card-body {
+    margin: auto;
 }
-p.card-text{
-/*    align-content: center;*/
+
+p.card-text {
+    /*    align-content: center;*/
     text-align: center;
 }
-.botom-banner{
+
+.botom-banner {
     height: auto;
     padding: 20px;
     color: white;
     margin: auto;
     object-fit: scale-down;
 }
-.page-footer{
+
+.page-footer {
     background-color: #1c2331;
     width: 100%;
 }
-.footer-copyright{
+
+.footer-copyright {
     font-family: sans-serif;
     color: white;
 }
-.footer-copyright.a{
+
+.footer-copyright.a {
     text-decoration: none;
     font-family: sans-serif;
     color: white;
 }
-.icon-list{
+
+.icon-list {
     margin: auto;
     text-align: center;
 }
-.icons{
+
+.icons {
     font-size: 3rem;
     margin: 20px;
 }
 
-.fa-github-square{
+.fa-github-square {
     color: white;
 }
-.fa-facebook-square{
-    color:blue;
+
+.fa-facebook-square {
+    color: blue;
 }
-.fa-google-plus-square{
+
+.fa-google-plus-square {
     color: maroon;
 }
-.fa-linkedin{
-    color:darkcyan;
+
+.fa-linkedin {
+    color: darkcyan;
 }
+
 /*
 .carousel-item{
    width: 50%;
 }
 */
-.modal-body{
+.modal-body {
     margin: auto;
 }
+
 /*
 .container-fluid.light-theme{
    
     width: auto%;
 }*/
 
-@media only screen and (max-width: 600px){
-    .jumbotron{
+@media only screen and (max-width: 600px) {
+    .jumbotron {
         width: 100%;
     }
-    .carousel{
-    width: 100%;
-    margin: 20px auto;
+
+    .card {
+        width: 100%;
+        margin: 5px;
+        margin-bottom: 3rem;
+    }
+
+    .carousel {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .botom-banner {
+   margin-top:3rem;
 }
-    icons{
-    font-size: 1.5rem;
-    margin: 10px;
-}
-  
+
+    icons {
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+
 }
