@@ -35,7 +35,7 @@ a.nav-link {
 }
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .darkTheme {
     background-color: darkgray;
