@@ -1,3 +1,11 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 @font-face {
     font-family: sega;
@@ -34,9 +42,7 @@ a.nav-link {
     /*    display: block;*/
 }
 
-html{
-    overflow-x: hidden;
-}
+
 .darkTheme {
     background-color: darkgray;
     background-image: linear-gradient(gray, black);
