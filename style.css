@@ -34,7 +34,7 @@ a.nav-link {
     /*    display: block;*/
 }
 
-body{
+html{
     overflow-x: hidden;
 }
 .darkTheme {
