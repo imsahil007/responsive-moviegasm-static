@@ -7,6 +7,17 @@ html,body
     overflow-x: hidden; 
 }
 
+.darkTheme {
+    background-color: darkgray;
+    background-image: linear-gradient(gray, black);
+    background-image: -moz-linear-gradient(gray, black);
+    background-image: -webkit-linear-gradient(gray, black);
+    width: 100%;
+    margin: 0px;
+    padding: 1rem;
+    
+}
+
 @font-face {
     font-family: sega;
     src: url(assets/SEGA.TTF);
@@ -43,15 +54,7 @@ a.nav-link {
 }
 
 
-.darkTheme {
-    background-color: darkgray;
-    background-image: linear-gradient(gray, black);
-    background-image: -moz-linear-gradient(gray, black);
-    background-image: -webkit-linear-gradient(gray, black);
-    width: 100%;
-    margin: 0;
-    padding: 1rem;
-}
+
 
 .jumbotron {
     text-align: center;
